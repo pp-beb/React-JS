@@ -24,3 +24,15 @@ html, body{
   background-color: rgb(169, 73, 4);
   color: wheat;
 }
+
+.barCont a{
+  margin: 10px;
+  color: white;
+  text-decoration: underline 0px;
+}
+
+#home{
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
