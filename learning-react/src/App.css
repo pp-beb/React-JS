@@ -1,0 +1,12 @@
+.headingOne{
+  color: rgb(213, 92, 5);
+  text-align: center;
+  text-shadow: 3px 3px 0px rgb(144, 65, 8);
+  font-family:cursive;
+}
+
+html, body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
