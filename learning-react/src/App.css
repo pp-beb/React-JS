@@ -10,3 +10,17 @@ html, body{
   align-items: center;
   justify-content: center;
 }
+
+.contDiv{
+  background-color: blanchedalmond;
+  width:100%;
+  height:100%;
+  position: absolute;
+  top: 70px;
+  text-align: center;
+}
+
+.barCont{
+  background-color: rgb(169, 73, 4);
+  color: wheat;
+}

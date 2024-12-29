@@ -9,6 +9,9 @@ function App() {
     </head>
     <body>
       <h1 className="headingOne">THE books store</h1>
+      <div className="contDiv">
+        <div className="barCont">BAR</div>
+      </div>
     </body>
    </html>
      
