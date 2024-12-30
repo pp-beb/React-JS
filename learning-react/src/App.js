@@ -12,11 +12,19 @@ function App() {
       <div className="contDiv">
         <div className="barCont">
           <a href="#home">Home</a>
-          <a href="#buy">Buy</a>
+          <a href="#shop">Shop</a>
           <a href="#membership">Membership</a>
-          <a href="#contact">Contact us</a>
+          <a href="#contact">Contact</a>
+          <a href="#location">Loaction</a>
         </div>
-        <div id="home" className="home">We are Banepa Based book store.</div>
+        <div id="home" className="home">
+          <div id="TopBooksPoster" className="TopBooksPoster">
+            Top Books this year.
+            <div className="posterBook one"></div>
+            <div className="posterBook two"></div>
+            <div className="posterBook three"></div>
+          </div>
+        </div>
       </div>
     </body>
    </html>

@@ -33,6 +33,24 @@ html, body{
 
 #home{
   text-align: center;
+}
+
+.TopBooksPoster{
+  color: rgb(142, 80, 35);
+  cursor: pointer;
+  font-family: cursive;
+  background-color: rgb(221, 121, 50);
   position: relative;
-  top: 400px;
+  top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posterBook{
+  height: 300px;
+  background-color: rgb(215, 187, 167);
+  margin: 3px;
+  border: 2px black;
+  flex: 0 0 25%;
 }
