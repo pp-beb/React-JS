@@ -18,11 +18,12 @@ function App() {
           <a href="#location">Loaction</a>
         </div>
         <div id="home" className="home">
+          <h3> Top Books this year.</h3>
           <div id="TopBooksPoster" className="TopBooksPoster">
-            Top Books this year.
             <div className="posterBook one"></div>
             <div className="posterBook two"></div>
             <div className="posterBook three"></div>
+            <div className="posterBook four"></div>
           </div>
         </div>
       </div>
