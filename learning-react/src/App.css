@@ -53,4 +53,5 @@ html, body{
   margin: 3px;
   border: 2px black;
   flex: 0 0 20%;
+  border-radius: 20px;
 }

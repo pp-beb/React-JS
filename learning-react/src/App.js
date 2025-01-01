@@ -25,6 +25,11 @@ function App() {
             <div className="posterBook three"></div>
             <div className="posterBook four"></div>
           </div>
+          <div id="shop" className="shop">
+          <h3> Delivery all over nepal</h3>
+          <div id="TopBooksPoster" className="TopBooksPoster">
+          </div>
+          </div>
         </div>
       </div>
     </body>
