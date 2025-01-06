@@ -1,12 +1,15 @@
 import './App.css';
+import {Title} from './Title';
 import {NavBar} from './navBar';
-import {title} from './Title';
+import {About} from './About';
+import {Buy} from './Buy';
 function App() {
   return (
     <div className="App">
-      <h1>The banepa book store</h1>
+       <Title />
       <NavBar />
-      <title />
+      <About />
+      <Buy />
     </div>
   );
 }
