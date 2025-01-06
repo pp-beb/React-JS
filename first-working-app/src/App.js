@@ -4,6 +4,7 @@ import {title} from './Title';
 function App() {
   return (
     <div className="App">
+      <h1>The banepa book store</h1>
       <NavBar />
       <title />
     </div>
