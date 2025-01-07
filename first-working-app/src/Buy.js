@@ -12,33 +12,39 @@ export function Buy() {
 
 <section className="BuyDiv">
 <section className="BuyBooks">
-    Pagal Basti
+    Pagal
+    <br/>
     <img src={pagalImg} className="pagalImg"></img>
 </section>
 <section className="BuyBooks">
-    Summer love
+    love
+    <br/>
     <img src={summerImg} className="pagalImg"></img>
 </section>
 <section className="BuyBooks">
-    Karnal Blues
+    blues
+    <br/>
     <img src={karnaliImg} className="pagalImg"></img>
 </section>
 </section>
 <section className="BuyDiv2">
 <section className="BuyBooks">
-    Old Man and The Sea
+    Old 
+    <br/>
     <img src={OldImg} className="pagalImg"></img>
 </section>
 <section className="BuyBooks">
-    Milk and Honey
+    Milk
+    <br/>
     <img src={milkImg} className="pagalImg"></img>
 </section>
 <section className="BuyBooks">
-    Metamorphisis
+    kafka
+    <br/>
     <img src={metaImg} className="pagalImg"></img>
 </section>
 </section>
-<a href="">View All &rarr;</a>
+<a href="allBooks.html">View All &rarr;</a>
 </div>
     );
 }
