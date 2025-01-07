@@ -11,7 +11,7 @@
     height: 300px;
     background-color: rgb(204, 226, 246);
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(171, 171, 236);
     color: rgb(136, 90, 4);
 }
 
@@ -19,6 +19,7 @@
     background-color: rgb(146, 193, 237);
     box-shadow: 10px 10px 0px rgb(113, 136, 156) ;
     transition: 0.5s;
+    color: aliceblue;
 }
 
 .pagalImg{

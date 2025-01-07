@@ -38,6 +38,7 @@ export function Buy() {
     <img src={metaImg} className="pagalImg"></img>
 </section>
 </section>
+<a href="">View All &rarr;</a>
 </div>
     );
 }
