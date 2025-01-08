@@ -11,34 +11,34 @@ export function Buy() {
 <h1>Buy</h1>
 
 <section className="BuyDiv">
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()">
     Pagal
     <br/>
     <img src={pagalImg} className="pagalImg"></img>
 </section>
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()">
     love
     <br/>
     <img src={summerImg} className="pagalImg"></img>
 </section>
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()">
     blues
     <br/>
     <img src={karnaliImg} className="pagalImg"></img>
 </section>
 </section>
 <section className="BuyDiv2">
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()">
     Old 
     <br/>
     <img src={OldImg} className="pagalImg"></img>
 </section>
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()">
     Milk
     <br/>
     <img src={milkImg} className="pagalImg"></img>
 </section>
-<section className="BuyBooks">
+<section className="BuyBooks" onClick="error()()">
     kafka
     <br/>
     <img src={metaImg} className="pagalImg"></img>
@@ -47,4 +47,8 @@ export function Buy() {
 <a href="allBooks.html">View All &rarr;</a>
 </div>
     );
+}
+
+function error(){
+    document.alert('This function is not yet available');
 }
